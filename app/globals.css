@@ -105,3 +105,61 @@ a {
     color-scheme: dark;
   }
 }
+
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+label {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+#profile {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  border: 1px solid white;
+  justify-content: space-around;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.post {
+  border: 1px solid white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-btn {
+text-decoration: underline;
+    font-size: 12px;
+}
